@@ -1,0 +1,39 @@
+/* タブレット向けレイアウト 1000px以下に適用*/
+@media all and (max-width: 1000px) {
+
+    .header-right a {
+        padding: 0 10px
+    }
+
+
+
+
+
+}
+
+
+
+/* モバイル向けレイアウト 670px以下に適用*/
+
+@media all and (max-width: 670px) {
+
+    .header-right {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}
