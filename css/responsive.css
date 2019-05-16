@@ -2,7 +2,12 @@
 @media all and (max-width: 1000px) {
 
     .header-right a {
-        padding: 0 10px
+        padding: 0 8px;
+    }
+
+    .header-logo{
+        height: 60px;
+        margin-top: 10px;
     }
 
 
@@ -30,9 +35,17 @@
         width: 100%;
     }
 
+    .footer-left{
+        float: none;
+        text-align: center;
+    }
 
+    .footer-right{
+        margin: 30px;
+        float: none;
+        text-align: center;
 
-
+    }
 
 
 

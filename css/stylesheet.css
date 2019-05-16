@@ -49,8 +49,9 @@ header {
 }
 
 .header-logo {
-    height: 80px;
-    padding: 5px 20px;
+    height: 70px;
+    padding: 3px;
+    margin-top: 5px;
 }
 
 .header-right {
@@ -171,9 +172,9 @@ footer {
 }
 
 .footer-logo {
-    height: 100px;
+    height: 90px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .footer-right {
