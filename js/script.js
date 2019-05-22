@@ -13,7 +13,7 @@
 
     });
 
-    //スクロール
+    //スクロールアニメーション
     //各ページ
     $('.btn').click(function () {
 
@@ -26,12 +26,8 @@
     });
 
 
-
-
-
-
     //ホバー時ヘッダーフォント
-    $('header a').hover(
+    $('.btn-hover').hover(
         function () {
 
             $(this).animate({
@@ -43,10 +39,32 @@
 
             $(this).animate({
                 'font-size': '14px'
-            }, 300);
+            }, 100);
 
         }
     );
+
+
+    //ハンバーガーメニュー
+    $('#hamb-menu,#hamb-contents').hover(
+        function () {
+
+            $('#hamb-contents').show();
+
+        },
+        function () {
+
+            $('#hamb-contents').hide();
+
+        }
+    );
+
+
+
+
+
+
+
 
 
 

@@ -75,14 +75,41 @@ header {
     background-color: rgba(0, 167, 255, 0.5);
 }
 
-.menu {
+#hamb-menu {
     display: none;
     font-size: 40px;
     color: dimgray;
     margin-top: 9px;
     margin-right: 40px;
     float: right;
+    cursor: pointer;
 }
+
+#hamb-menu:hover{
+    opacity:0.5;
+    transition: all 0.3s;
+}
+
+.hamb-contents {
+    float: right;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.hamb-contents a{
+    font-size: 5px;
+    letter-spacing: 3px;
+    margin : 30px;
+    color: #000000;
+    display: block;
+
+}
+
+
 
 /*top-wrapper*/
 
@@ -184,7 +211,7 @@ footer {
 }
 
 .footer-right a {
-    font-size: 13px;
+    font-size: 14px;
     color: #000000;
     display: block;
     padding: 3px;
