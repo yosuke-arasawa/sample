@@ -38,6 +38,10 @@ li {
     display: block;
 }
 
+.active {
+    display: block;
+}
+
 /*header*/
 
 header {
@@ -85,12 +89,13 @@ header {
     cursor: pointer;
 }
 
-#hamb-menu:hover{
-    opacity:0.5;
+#hamb-menu:hover {
+    opacity: 0.5;
     transition: all 0.3s;
 }
 
-.hamb-contents {
+#hamb-contents {
+    display: none;
     float: right;
     position: fixed;
     top: 80px;
@@ -100,10 +105,10 @@ header {
     border: 1px solid rgb(150, 150, 150);
 }
 
-.hamb-contents a{
-    font-size: 5px;
+#hamb-contents a {
+    font-size: 20px;
     letter-spacing: 3px;
-    margin : 30px;
+    margin: 60px 90px;
     color: #000000;
     display: block;
 

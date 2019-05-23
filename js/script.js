@@ -46,25 +46,39 @@
 
 
     //ハンバーガーメニュー
-    $('#hamb-menu,#hamb-contents').hover(
-        function () {
+    //$('#hamb-menu,#hamb-contents').hover(
+    //   function () {
 
-            $('#hamb-contents').show();
+    //       $('#hamb-contents').show();
+    //
+    //   },
+    //  function () {
+    //
+    //           $('#hamb-contents').hide();
+    //
+    //      }
+    //   );
 
-        },
-        function () {
 
-            $('#hamb-contents').hide();
+
+    $('#hamb-menu').click(function () {
+
+        var $hamb = $('#hamb-contents')
+
+        if ($hamb.hasClass('active')) {
+
+            $hamb.removeClass('active');
+            $hamb.slideUp(200);
+
+        } else {
+
+            $hamb.addClass('active');
+            $hamb.slideDown(200);
 
         }
-    );
 
 
-
-
-
-
-
+    });
 
 
 
