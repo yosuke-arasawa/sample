@@ -1,4 +1,5 @@
 /* タブレット向けレイアウト 1000px以下に適用*/
+
 @media all and (max-width: 1000px) {
 
     .header-right a {

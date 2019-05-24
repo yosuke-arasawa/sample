@@ -81,9 +81,7 @@ header {
 
 #hamb-menu {
     display: none;
-    font-size: 40px;
-    color: dimgray;
-    margin-top: 9px;
+    margin-top: 10px;
     margin-right: 40px;
     float: right;
     cursor: pointer;
@@ -94,15 +92,26 @@ header {
     transition: all 0.3s;
 }
 
-#hamb-contents {
-    display: none;
-    float: right;
+#hamb-wrapper {
     position: fixed;
     top: 80px;
     right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 20;
+    display: none;
+}
+
+#hamb-contents {
+    display: none;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgb(150, 150, 150);
+    padding-bottom: 30px;
 }
 
 #hamb-contents a {
@@ -111,8 +120,14 @@ header {
     margin: 40px 60px;
     color: #000000;
     display: block;
-
 }
+
+
+
+
+
+
+
 
 
 

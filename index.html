@@ -7,6 +7,7 @@
     <title>Sample Site</title>
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/hamburger.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
@@ -28,15 +29,21 @@
         </div>
 
         <div id="hamb-menu">
-            <a class="fa fa-bars"></a>
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         </div>
 
-        <div id="hamb-contents">
-            <a class="btn" href="#information">お知らせ</a>
-            <a class="btn" href="#history">沿革</a>
-            <a class="btn" href="#schedule">年間行事</a>
-            <a class="btn" href="#map">地図</a>
-            <a class="btn" href="#contact">お問い合わせ</a>
+        <div id="hamb-wrapper">
+            <div id="hamb-contents">
+                <a class="btn" href="#information">お知らせ</a>
+                <a class="btn" href="#history">沿革</a>
+                <a class="btn" href="#schedule">年間行事</a>
+                <a class="btn" href="#map">地図</a>
+                <a class="btn" href="#contact">お問い合わせ</a>
+            </div>
         </div>
 
     </header>

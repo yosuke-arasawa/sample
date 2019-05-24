@@ -48,7 +48,7 @@
     //ハンバーガーメニュー
     //$('#hamb-menu,#hamb-contents').hover(
     //   function () {
-
+    //
     //       $('#hamb-contents').show();
     //
     //   },
@@ -63,20 +63,22 @@
 
     $('#hamb-menu').click(function () {
 
-        var $hamb = $('#hamb-contents')
+        var $hamb = $('#hamb-wrapper,#hamb-contents,.menu-trigger')
 
         if ($hamb.hasClass('active')) {
 
             $hamb.removeClass('active');
-            $hamb.slideUp(200);
+            $("#hamb-wrapper").fadeOut();
+            $("#hamb-contents").slideUp(200);
+
 
         } else {
 
             $hamb.addClass('active');
-            $hamb.slideDown(200);
+            $("#hamb-wrapper").fadeIn();
+            $("#hamb-contents").slideDown(200);
 
         }
-
 
     });
 
