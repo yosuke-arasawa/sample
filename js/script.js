@@ -59,24 +59,36 @@
     //      }
     //   );
 
-
+    var $hamb = $('#hamb-wrapper,#hamb-contents,.menu-trigger')
 
     $('#hamb-menu').click(function () {
 
-        var $hamb = $('#hamb-wrapper,#hamb-contents,.menu-trigger')
 
         if ($hamb.hasClass('active')) {
 
             $hamb.removeClass('active');
-            $("#hamb-wrapper").fadeOut();
-            $("#hamb-contents").slideUp(200);
+            $('#hamb-wrapper').fadeOut();
+            $('#hamb-contents').slideUp(200);
 
 
         } else {
 
             $hamb.addClass('active');
-            $("#hamb-wrapper").fadeIn();
-            $("#hamb-contents").slideDown(200);
+            $('#hamb-wrapper').fadeIn();
+            $('#hamb-contents').slideDown(200);
+
+        }
+
+    });
+
+
+    $('#hamb-wrapper').click(function () {
+
+        if ($hamb.hasClass('active')) {
+
+            $hamb.removeClass('active');
+            $('#hamb-wrapper').fadeOut();
+            $('#hamb-contents').slideUp(200);
 
         }
 
