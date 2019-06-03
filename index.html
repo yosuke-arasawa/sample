@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/sliders.css">
+    <link rel="stylesheet" href="css/sliders2.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
@@ -17,7 +19,7 @@
 
         <div class="container">
             <div class="logo-left header-left">
-                <img class="header-logo" src="img/sample-logo02.png">
+                <img class="header-logo" src="img/sample-logo.png">
             </div>
             <div class="header-right">
                 <a class="btn btn-hover" href="#information">お知らせ</a>
@@ -38,8 +40,8 @@
 
         <div id="hamb-wrapper">
             <div id="hamb-contents">
-                <a class="btn" href="#information">お知らせ</a>
-                <a class="btn" href="#history">沿革</a>
+                <a class="btn" href="#information">information</a>
+                <a class="btn" href="#history">history</a>
                 <a class="btn" href="#schedule">年間行事</a>
                 <a class="btn" href="#map">地図</a>
                 <a class="btn" href="#contact">お問い合わせ</a>
@@ -50,87 +52,125 @@
 
 
 
-    <div class="top-wrapper">
 
-        <!-- <div class="top-img"></div> -->
-        <div class="container">
+
+    <div class="slide-wrapper">
+
+
+        <div class="sliders">
+            <ul class="sliders-items">
+                <li class="sliders-item"><img src="img/img01.jpg"></li>
+                <li class="sliders-item"><img src="img/img02.jpg"></li>
+                <li class="sliders-item"><img src="img/img03.jpg"></li>
+            </ul>
+            <div class="sliders-prev"></div>
+            <div class="sliders-next"></div>
         </div>
 
+    </div>
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="top-wrapper">
+
+        <div class="top-img"></div>
+
+
+
         <div class="slides">
-            <div class="slide slide1 show"></div>
+            <img class="white-back" src="img/whiteback.jpg">
+            <img class="slide" src="img/img01.jpg">
+            <img class="slide" src="img/img02.jpg">
+            <img class="slide" src="img/img03.jpg">
+
+
+            <div class="slide slide1"></div>
             <div class="slide slide2"></div>
             <div class="slide slide3"></div>
 
 
+            <div class="slide-btn prev-btn" id="prev-btn" href="#"></div>
+            <div class="slide-btn next-btn" id="next-btn" href="#"></div>
 
         </div>
 
     </div>
 
+-->
 
+        <div class="middle-wrapper">
+            <div class="container">
+                <div ID="information" class="section information">
+                    <h3>お知らせ</h3>
+                    <div class="contents"></div>
+                </div>
+                <div ID="history" class="section history">
+                    <h3>沿革</h3>
+                    <div class="contents"></div>
+                </div>
+                <div ID="schedule" class="section schedule">
+                    <h3>年間行事</h3>
+                    <div class="contents"></div>
+                </div>
+                <div ID="map" class="section map">
+                    <h3>地図</h3>
+                    <div class="contents"></div>
+                </div>
+                <div ID="contact" class="section contact">
+                    <h3>お問い合わせ</h3>
+                    <div class="contents">
+                        <p>メールアドレス</p>
+                        <input class="mail-address">
+                        <p>お問い合わせ内容</p>
+                        <textarea></textarea>
+                        <div></div>
+                        <input class="contact-submit" type="submit" value="送信する">
 
-    <div class="middle-wrapper">
-        <div class="container">
-            <div ID="information" class="section information">
-                <h3>お知らせ</h3>
-                <div class="contents"></div>
-            </div>
-            <div ID="history" class="section history">
-                <h3>沿革</h3>
-                <div class="contents"></div>
-            </div>
-            <div ID="schedule" class="section schedule">
-                <h3>年間行事</h3>
-                <div class="contents"></div>
-            </div>
-            <div ID="map" class="section map">
-                <h3>地図</h3>
-                <div class="contents"></div>
-            </div>
-            <div ID="contact" class="section contact">
-                <h3>お問い合わせ</h3>
-                <div class="contents">
-                    <p>メールアドレス</p>
-                    <input class="mail-address">
-                    <p>お問い合わせ内容</p>
-                    <textarea></textarea>
-                    <div></div>
-                    <input class="contact-submit" type="submit" value="送信する">
-
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <div class="bottom-wrapper">
-        <div class="container">
+        <div class="bottom-wrapper">
+            <div class="container">
 
-        </div>
-    </div>
-
-
-
-    <footer>
-        <div class="container">
-            <div class="logo-left footer-left">
-                <img class="footer-logo" src="img/sample-logo02.png">
             </div>
-            <div class="footer-right">
-                <div class="footer-contents">
-                    <a class="btn btn-hover" href="#information">お知らせ</a>
-                    <a class="btn btn-hover" href="#history">沿革</a>
-                    <a class="btn btn-hover" href="#schedule">年間行事</a>
-                    <a class="btn btn-hover" href="#map">地図</a>
-                    <a class="btn btn-hover" href="#contact">お問い合わせ</a>
+        </div>
+
+
+
+        <footer>
+            <div class="container">
+                <div class="logo-left footer-left">
+                    <img class="footer-logo" src="img/sample-logo.png">
+                </div>
+                <div class="footer-right">
+                    <div class="footer-contents">
+                        <a class="btn btn-hover" href="#information">お知らせ</a>
+                        <a class="btn btn-hover" href="#history">沿革</a>
+                        <a class="btn btn-hover" href="#schedule">年間行事</a>
+                        <a class="btn btn-hover" href="#map">地図</a>
+                        <a class="btn btn-hover" href="#contact">お問い合わせ</a>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>© 2019 Sample.Co All Rights Reserved.</p>
                 </div>
             </div>
-            <div class="copyright">
-                <p>© 2019 Sample.Co All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="js/script.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/sliders.js"></script>
+        <script src="js/sliders2.js"></script>
+        <script src="js/sliders3.js"></script>
+
 </body></html>

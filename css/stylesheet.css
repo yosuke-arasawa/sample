@@ -144,6 +144,73 @@ header {
 }
 */
 
+
+
+/* スライダー
+
+.slides {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+
+.white-back {
+    width: 100%;
+}
+
+
+.slide {
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+
+.show {
+    display: block;
+}
+
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    border-right: 0.2em solid #FFFFFF;
+    border-bottom: 0.2em solid #FFFFFF;
+    background: transparent;
+    opacity: 0.5;
+
+}
+
+.slide-btn:hover {
+    opacity: 0.8;
+}
+
+#prev-btn {
+
+    left: 2em;
+    transform: translateY(-50%) rotate(135deg);
+}
+
+#next-btn {
+    right: 2em;
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+
+*/
+
+
+
+
+/*
 .slide {
     display: none;
     background-position: center center;
@@ -166,9 +233,9 @@ header {
     background-image: url(../img/img03.jpg);
 }
 
-.show {
-    display: block;
-}
+*/
+
+
 
 /*middle-wrapper*/
 
@@ -179,6 +246,7 @@ h3 {
     font-weight: normal;
     text-align: center;
     letter-spacing: 3px;
+
 }
 
 
