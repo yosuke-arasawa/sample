@@ -18,7 +18,7 @@
 
         <div class="container">
             <div class="logo-left header-left">
-                <img class="header-logo" src="img/sample-logo.png">
+                <img class="header-logo" src="img/logo03.png">
             </div>
             <div class="header-right">
                 <a class="btn btn-hover" href="#information">お知らせ</a>
@@ -39,8 +39,8 @@
 
         <div id="hamb-wrapper">
             <div id="hamb-contents">
-                <a class="btn" href="#information">information</a>
-                <a class="btn" href="#history">history</a>
+                <a class="btn" href="#information">お知らせ</a>
+                <a class="btn" href="#history">沿革</a>
                 <a class="btn" href="#schedule">年間行事</a>
                 <a class="btn" href="#map">地図</a>
                 <a class="btn" href="#contact">お問い合わせ</a>
@@ -71,9 +71,18 @@
 
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/img01.jpg" alt="Swiper01"></div>
-                <div class="swiper-slide"><img src="./img/img02.jpg" alt="Swiper02"></div>
-                <div class="swiper-slide"><img src="./img/img03.jpg" alt="Swiper03"></div>
+                <div class="swiper-slide">
+                    <img src="./img/img01.jpg" alt="Swiper01">
+                    <div class="swiper-slide-content swiper-slide-content-1">虚空の先。</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/img02.jpg" alt="Swiper02">
+                    <div class="swiper-slide-content swiper-slide-content-2">遠く。大きく。</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/img03.jpg" alt="Swiper03">
+                    <div class="swiper-slide-content swiper-slide-content-3">限界を超えた未来へ。</div>
+                </div>
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-prev"></div>
@@ -90,7 +99,7 @@
                 },
                 loop: true,
                 autoplay: {
-                    delay: 4000,
+                    delay: 5000,
                     disableOnInteraction: true
                 },
                 pagination: {
@@ -99,6 +108,13 @@
                     clickable: true
                 },
                 speed: 1000,
+                on: {
+                    slideChange: function() {
+                        jQuery('.swiper-slide-content').css('opacity', '0');
+                        realIndex = this.realIndex + 1;
+                        jQuery('.swiper-slide-content-' + realIndex).css('opacity', '1');
+                    },
+                },
             });
         </script>
 
@@ -153,7 +169,7 @@
     <footer>
         <div class="container">
             <div class="logo-left footer-left">
-                <img class="footer-logo" src="./img/sample-logo.png">
+                <img class="footer-logo" src="./img/logo03.png">
             </div>
             <div class="footer-right">
                 <div class="footer-contents">
