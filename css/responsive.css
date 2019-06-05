@@ -1,6 +1,6 @@
-/* タブレット向けレイアウト 1000px以下に適用*/
+/* タブレット向けレイアウト 1024px以下に適用*/
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1024px) {
 
     .header-right a {
         padding: 0 8px;
@@ -70,6 +70,11 @@
     .swiper-slide-content {
         font-size: 15px;
     }
+
+
+
+
+
 
 
 }
