@@ -6,9 +6,11 @@
         padding: 0 8px;
     }
 
-    .swiper-slide img {
+    .obj-fit-img {
         height: 850px;
         object-fit: cover;
+        object-position: 45% 0;
+        font-family: 'object-fit: cover; object-position: 45% 0;'
     }
 
     .swiper-slide-content {
@@ -61,7 +63,7 @@
         padding-top: 0;
     }
 
-    .swiper-slide img {
+    .obj-fit-img {
         height: 650px;
     }
 
