@@ -6,6 +6,14 @@
         padding: 0 8px;
     }
 
+    .swiper-slide img {
+        height: 850px;
+        object-fit: cover;
+    }
+
+    .swiper-slide-content {
+        font-size: 20px;
+    }
 
 
 
@@ -53,6 +61,13 @@
         padding-top: 0;
     }
 
+    .swiper-slide img {
+        height: 650px;
+    }
+
+    .swiper-slide-content {
+        font-size: 15px;
+    }
 
 
 }
