@@ -30,7 +30,7 @@ li {
 
 
 .contents {
-    height: 500px;
+    height: 700px;
     text-align: center;
 }
 
@@ -317,7 +317,10 @@ textarea {
 }
 
 
-
+iframe{
+    padding:20px;
+    margin:0;
+}
 
 /*//////////////////////////////////////////////////////////////////////
      bottom-wrapper
