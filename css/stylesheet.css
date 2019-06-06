@@ -30,7 +30,7 @@ li {
 
 
 .contents {
-    height: 700px;
+    height: 600px;
     text-align: center;
 }
 
@@ -318,7 +318,7 @@ textarea {
 
 
 iframe{
-    padding:20px;
+    padding:10px 0;
     margin:0;
 }
 
