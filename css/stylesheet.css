@@ -27,10 +27,7 @@ li {
     list-style: none;
 }
 
-
-
 .contents {
-    height: 600px;
     text-align: center;
 }
 
@@ -147,6 +144,44 @@ header {
     letter-spacing: 5px;
     font-size: 30px;
 }
+
+
+/*//////////////////////////////////////////////////////////////////////
+     パンくず
+//////////////////////////////////////////////////////////////////////*/
+
+.breadcrumbs {
+    padding: 0;
+    margin: 10px 0 45px 0;
+}
+
+.breadcrumbs li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.breadcrumbs a {
+    color: rgb(150, 150, 150)
+}
+
+.breadcrumbs li:last-child a {
+    color: #000000;
+    border-bottom: 1px solid #000;
+}
+
+.breadcrumbs li::after {
+    content: '>';
+    display: inline-block;
+    padding: 0 8px;
+    /*左右に余白*/
+    color: rgb(150, 150, 150);
+}
+
+.breadcrumbs li:last-child::after {
+    display: none;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////////
      top-wrapper
@@ -275,18 +310,18 @@ h3 {
 
 
 .contact p {
-    margin: 25px 0 0 0;
+    margin: 40px 0 0 0;
     font-size: 14px;
     letter-spacing: 3px;
 }
 
 input {
-    height: 45px
+    height: 45px;
 }
 
 input,
 textarea {
-    width: 500px;
+    width: 600px;
     margin-top: 5px;
     padding: 10px;
     font-size: 14px;
@@ -317,9 +352,13 @@ textarea {
 }
 
 
-iframe{
-    padding:10px 0;
-    margin:0;
+.map-wrapper {
+    height: 700px;
+}
+
+iframe {
+    padding: 10px 0;
+    margin: 0;
 }
 
 /*//////////////////////////////////////////////////////////////////////

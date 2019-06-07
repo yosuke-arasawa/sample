@@ -20,7 +20,7 @@
         var id = $(this).attr('href');
         var position = $(id).offset().top;
         $('html,body').animate({
-            'scrollTop': position - 86
+            'scrollTop': position - 80
         }, 'slow');
 
     });
