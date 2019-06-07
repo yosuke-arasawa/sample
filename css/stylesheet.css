@@ -303,7 +303,7 @@ h3 {
 
 }
 
-
+/*
 .info-srcollbar {
     margin: 20px auto;
     width: 100%;
@@ -314,14 +314,28 @@ h3 {
     border-right: 1px solid rgb(150, 150, 150);
     border-top: none;
     border-bottom: none;
+    display: block;
 
 }
+*/
 
-.iframe{
+.info-iframe iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.info-iframe {
     width: 100%;
     height: 400px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    padding: 10px 10px 10px 30px;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-left: 1px solid rgb(150, 150, 150);
+    border-right: 1px solid rgb(150, 150, 150);
 }
 
 .contact p {
