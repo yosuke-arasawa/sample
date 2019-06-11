@@ -390,6 +390,52 @@ textarea {
     margin: 0;
 }
 
+.works{
+    height:300px;
+}
+
+.work{
+    width:25%;
+    float:left;
+    position:relative;
+    margin:40px 0;
+    padding: 20px;
+    height: 300px;
+
+}
+
+.back-img{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 30px;
+}
+
+.work-img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:100px;
+    z-index: 10;
+}
+
+.work p{
+    position:absolute;
+    top:70%;
+    left:0;
+    width: 100%;
+    color:#ffffff;
+    font-weight: bold;
+    z-index: 10;
+
+}
+
+.clear{
+    clear:left;
+}
+
 /*//////////////////////////////////////////////////////////////////////
      bottom-wrapper
 //////////////////////////////////////////////////////////////////////*/
