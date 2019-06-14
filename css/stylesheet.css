@@ -390,51 +390,41 @@ textarea {
     margin: 0;
 }
 
-.works{
-    height:300px;
+
+.work {
+    float: left;
+    width: 25%;
+    height: 250px;
+    cursor: pointer;
+    margin: 40px auto;
+    position: relative;
 }
 
-.work{
-    width:25%;
-    float:left;
-    position:relative;
-    margin:40px 0;
-    padding: 20px;
-    height: 300px;
+.work:hover {
+    opacity: 0.8;
+}
+
+.back-img {
+    height: 250px;
 
 }
 
-.back-img{
+.work-img {
     position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    padding: 30px;
+    height: 100px;
+    top:50px;
+    z-index: 1;
 }
 
-.work-img{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    padding:100px;
-    z-index: 10;
-}
-
-.work p{
-    position:absolute;
-    top:70%;
-    left:0;
-    width: 100%;
-    color:#ffffff;
+.work p {
+    position: absolute;
+    top: 170px;
+    color: #fff;
     font-weight: bold;
-    z-index: 10;
+    width: 100%;
 
 }
 
-.clear{
-    clear:left;
-}
 
 /*//////////////////////////////////////////////////////////////////////
      bottom-wrapper

@@ -17,6 +17,10 @@
         font-size: 20px;
     }
 
+    .work {
+        width: 50%;
+    }
+
 
 
 
@@ -75,8 +79,12 @@
         height: 500px;
     }
 
-    .info-iframe{
+    .info-iframe {
         height: 300px;
+    }
+
+    .work {
+        width: 100%;
     }
 
 
