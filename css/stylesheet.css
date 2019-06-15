@@ -390,39 +390,47 @@ textarea {
     margin: 0;
 }
 
-
 .work {
     float: left;
     width: 25%;
-    height: 250px;
     cursor: pointer;
-    margin: 40px auto;
+    margin: 30px auto;
+}
+
+.work-icon{
     position: relative;
 }
 
-.work:hover {
+.work-icon:hover {
     opacity: 0.8;
 }
 
 .back-img {
     height: 250px;
-
 }
 
 .work-img {
     position: absolute;
-    height: 100px;
-    top:50px;
+    height: 90px;
+    margin: 45px 80px;
     z-index: 1;
 }
 
-.work p {
+.work-title {
     position: absolute;
-    top: 170px;
+    top: 140px;
     color: #fff;
     font-weight: bold;
     width: 100%;
+}
 
+.work-text {
+    width: 70%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color:dimgray;
+    height: 100px;
 }
 
 
