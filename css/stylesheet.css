@@ -433,6 +433,17 @@ textarea {
     height: 100px;
 }
 
+.clear{
+    clear: left;
+}
+
+.history-text{
+    width: 75%;
+    margin: 50px auto;
+    color:dimgray;
+    font-size: 16px;
+}
+
 
 /*//////////////////////////////////////////////////////////////////////
      bottom-wrapper
