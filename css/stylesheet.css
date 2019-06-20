@@ -437,9 +437,22 @@ textarea {
     clear: left;
 }
 
+.history-back{
+    background:url(../img/img04.jpg)center center no-repeat;
+    background-size:cover;
+    margin: 0 auto;
+
+}
+
+.back-mask{
+    height:100%;
+    background: rgba(255,255,255,0.7);
+}
+
 .history-text{
     width: 75%;
-    margin: 50px auto;
+    margin: 0 auto;
+    padding: 180px 0;
     color:dimgray;
     font-size: 16px;
 }
