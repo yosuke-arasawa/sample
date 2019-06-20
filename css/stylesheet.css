@@ -348,7 +348,7 @@ h3 {
      お問い合わせ
 //////////////////////////////////////////////////////////////////////*/
 
-.contact .contents{
+.contact .contents {
     padding: 60px 0;
 }
 
@@ -393,11 +393,11 @@ textarea {
     box-shadow: none;
 }
 
-.tell-number{
+.tell-number {
     font-size: 25px;
-    color: #65b2ff;
+    color: dimgray;
     font-weight: bold;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 
@@ -428,7 +428,7 @@ textarea {
     margin: 30px auto;
 }
 
-.work-icon{
+.work-icon {
     position: relative;
 }
 
@@ -460,11 +460,11 @@ textarea {
     display: inline-block;
     margin-top: 20px;
     font-size: 12px;
-    color:dimgray;
+    color: dimgray;
     height: 100px;
 }
 
-.clear{
+.clear {
     clear: left;
 }
 
@@ -473,23 +473,23 @@ textarea {
      沿革
 //////////////////////////////////////////////////////////////////////*/
 
-.history-back{
-    background:url(../img/img04.jpg)center center no-repeat;
-    background-size:cover;
+.history-back {
+    background: url(../img/img04.jpg)center center no-repeat;
+    background-size: cover;
     margin: 0 auto;
 
 }
 
-.back-mask{
-    height:100%;
-    background: rgba(255,255,255,0.7);
+.back-mask {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
 }
 
-.history-text{
+.history-text {
     width: 75%;
     margin: 0 auto;
     padding: 180px 0;
-    color:dimgray;
+    color: dimgray;
     font-size: 16px;
 }
 
