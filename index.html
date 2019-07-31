@@ -121,6 +121,7 @@
                     },
                 },
             });
+
         </script>
 
     </div>
@@ -226,17 +227,20 @@
             <div ID="contact" class="section contact">
                 <h3>お問い合わせ</h3>
                 <div class="contents">
-                    <p>メールアドレス</p>
-                    <input class="mail-address">
-                    <p>お問い合わせ内容</p>
-                    <textarea></textarea>
-                    <div></div>
-                    <input class="contact-submit" type="submit" value="送信する">
+                    <form method="post" action="sent.php">
+                        <p>メールアドレス</p>
+                        <input class="mail-address" name="title">
+                        <p>お問い合わせ内容</p>
+                        <textarea name="body"></textarea>
+                        <div></div>
+                        <input class="contact-submit" type="submit" value="送信する">
+                    </form>
                     <div class="tell">
                         <P>お電話はこちらから</P>
                         <p class="tell-number">023-629-8350</p>
                         <P>※おかけ間違いにご注意ください</P>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -276,6 +280,9 @@
     <script src="./js/ofi.min.js"></script>
     <script>
         objectFitImages();
+
     </script>
 
-</body></html>
+</body>
+
+</html>
