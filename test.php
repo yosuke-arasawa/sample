@@ -8,12 +8,13 @@
 <body>
 <?php
 
-$title = $_POST['title'];
-$body = $_POST['body'];
+$email = $_POST['email'];
+$content = $_POST['content'];
 
 ?>
 
-    <h1><?php echo $title ?></h1>
+    <h1>Email:<?php echo $email ?></h1>
+    <h1>内容：<?php echo $content ?></h1>
 
 </body>
 </html>
